@@ -3,13 +3,94 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>title</title>
+    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
     <meta name="author" content="name" />
     <meta name="description" content="description here" />
     <meta name="keywords" content="keywords,here" />
   </head>
   <body>
+    <header>
+      <div class="menu">
+        <nav class="top-nav">
+          <ul class="nav-list">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Portfolio</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img">
+          <img src="">
+        </div>
+      </div>
+      <div class="about-heading">
+        <h1>About Me</h1>
+      </div>
+      <p>
+        Highly creative and multitalented Front end developer with 5 years of
+        extensive experience dedicated to building, maintain and optimizing
+        user-friendly, high-impact websites and web applications. Able to work
+        independently and in team. Detail-oriented and conscientious about
+        accuracy. passionate about learning new tools and coding languages.
+      </p>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-heading">
+        <h1>Work Experience</h1>
+        <h5>Machine Mob Lab 2018 - Present</h5>
+        <p>
+          Managed website editorial calendar,
+          ensures the quality and accuracy of content, maintains content
+          inventories, and routinely performs content audits 
+          <p>
+          <h5>FAMZY 2011- 2018</h5>
+          <p>Built websites using WordPress and Prepared website proposals to
+          present to clients,also providing technical support through project.
+        </p>
+        <p>
+          <h5>AIRYPRO 2009- 2011</h5> 
+          <p>Developed and structured feature-rich client
+          websites, ensuring that all needs were met, and company policies and
+          procedures followed and created high-quality code.</p>
+        </p>
+      </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1>Contact</h1>
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+          <input type="submit" value="Submit">
+          
+        </form>
+      </div>
+    </section>
     <script src="index.js"></script>
   </body>
 </html>
