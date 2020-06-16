@@ -1,0 +1,173 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-image: url("/profileimg.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-img {
+  border-radius: 5px;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img img {
+  height: 150px;
+  border-radius: 10px;
+}
+.profile-info {
+  width: 70%;
+  text-align: center;
+}
+.profile-info p {
+  color: #eee;
+}
+.profile-icons {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+.profile-icon:not(:last-child) {
+  margin-right: 16px;
+}
+
+.profile-icon i {
+  font-size: 3rem;
+  color: #eee;
+}
+.profile-iconi:hover {
+  color: skyblue;
+}
+
+.skill-icon1 i:hover {
+  color: rgb(0, 0, 0);
+}
+.skill-icon2 i:hover {
+  color: rgb(9, 34, 50);
+}
+.skill-icon3 i:hover {
+  color: lightskyblue;
+}
+
+.top-nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  font-size: 20px;
+}
+.nav-list a {
+  font-family: "Montserrat", sans-serif;
+}
+.nav-list a:hover {
+  color: rgb(241, 241, 24);
+}
+.about-heading h1 {
+  text-align: center;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 24px;
+}
+.about-heading p {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.section-experience h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.section-experience h5 {
+  text-align: center;
+  font-size: 20px;
+}
+.experience-item {
+  width: 20%;
+  border: 2px solid yellow;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  background-color: azure;
+}
+.work {
+  display: flex;
+  margin-left: 9%;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.contact h1 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+  background-color: #16162d;
+  padding: 2rem 0;
+  position: relative;
+  color: #eee;
+}
+form {
+}
+
+input {
+  margin-left: 18px;
+  margin-top: 10px;
+  padding: 6px;
+}
+textarea {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+input[type="submit"] {
+  margin-left: 45%;
+  border-radius: 9%;
+}
+input[type="submit"]:hover {
+  background-color: yellow;
+}
